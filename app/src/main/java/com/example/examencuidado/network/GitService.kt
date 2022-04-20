@@ -11,6 +11,6 @@ import retrofit2.http.Headers
 interface GitService {
 
     @GET(PATH_USER)
-    @Headers("Authorization: token $ACCESS_TOKEN")
+    @Headers("Authorization: token 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")
     suspend fun getResponseUser(): Response<ArrayList<GitResponseUserItem>>
 }
